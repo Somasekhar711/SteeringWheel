@@ -4,7 +4,7 @@ import imutils
 from imutils.video import VideoStream
 from directkeys import PressKey, A, D, Space, ReleaseKey
 
-cam = VideoStream(src=0).start()
+cam = VideoStream(src=1).start()
 currentKey = list()
 
 while True:
